@@ -14,7 +14,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   
-  ground = new Ground(240,525,1650,20);
+  ground = new Ground(500,525,1000,20);
 
   
   //box1 = new Block(700,100,70,70)
@@ -44,7 +44,7 @@ function setup() {
 
   rope1 = new Fly(hero1.body,{x:250,y:50})
 
-  monster1 = new Monster(950,350,100)
+  monster1 = new Monster(980,350,300)
 
 }
 
